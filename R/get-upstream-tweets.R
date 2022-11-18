@@ -10,6 +10,7 @@
 #' @return A new, filtered dataframe which only includes any reply statuses that
 #'   are not responses to statuses already in the dataset (i.e., upstream
 #'   replies)
+#' @importFrom rlang .data
 #' @keywords internal
 #' @noRd
 flag_unknown_upstream <-
@@ -54,7 +55,6 @@ flag_unknown_upstream <-
 #' }
 #' }
 #'
-#' @importFrom rlang .data
 #' @export
 get_upstream_tweets <-
   function(df) {
@@ -79,7 +79,7 @@ get_upstream_tweets <-
             pull_tweet_data(id_vector =
                               unknown_upstream$in_reply_to_status_id_str)
           n <- n + nrow(new_tweets)
-          df <- dplyr::bind_rows(df, new_tweets)
+          df <- rbind(df, new_tweets)
 
           unknown_upstream <- flag_unknown_upstream(df)
 
