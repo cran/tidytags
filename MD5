@@ -1,13 +1,13 @@
-43f09100cbd83b70d97c4433ab40661b *DESCRIPTION
+f6ca122b36a4eeb7af9427b642aa5eb7 *DESCRIPTION
 df282b8db2b114d16aa42767d1d29b9c *LICENSE
 1eb51ce0bb89ece9a7622efe6dbb2b6e *NAMESPACE
-f2116bf8e1fd4eed3f96a30474752a5f *NEWS.md
+3b06e7103ba7cd4596bc9530364fea5b *NEWS.md
 84ec7553fa195a9728a147590e770bb0 *R/add-users-data.R
 4d1bc1e827d9a3c45f0a821e92cbd44c *R/analyze-network.R
 2a3f36711eaa0ed2a1cb547ce6d67c90 *R/analyze-url.R
 a2706129d1533f166c5bd1f60af2af68 *R/get-upstream-tweets.R
 e7b5c6319e33ad16d0d868fb1460cd07 *R/setup-functions.R
-9d0fb493a32501c162977b50536171d6 *README.md
+34520f5315bd77b6c0012465650bbe42 *README.md
 decf12727232037362215f1c41b4a7d1 *build/vignette.rds
 8fa1e36c803122dc007e4550502aaf2e *inst/CITATION
 ca7b589532f4bf4490401c990c70b08d *inst/doc/setup.R
@@ -39,7 +39,7 @@ c8b21fe62082778084984db9cd9bce0e *tests/fixtures/tweet_ids.yml
 724fea34b10793957a308f89ba011790 *tests/fixtures/upstream_tweets.yml
 a84ef509fa08a53696493d452df28f87 *tests/fixtures/upstream_tweets_empty.yml
 ccf210ce7b24c8afdca5d23bcfd8c00a *tests/fixtures/url_domains.yml
-71a8dcb0b98dbdd3ab996c28a2d19bda *tests/fixtures/users_info.yml
+06702cf36b4a4e19656beeb8be9d00df *tests/fixtures/users_info.yml
 81a68d89ec0a6f7fa1df290786a80eee *tests/testthat.R
 7ee554062585c7bc6f6b7e52fb9e7eba *tests/testthat/helper-vcr.R
 533dc978aee0d5df8095425314fb9c21 *tests/testthat/sample-data.csv
